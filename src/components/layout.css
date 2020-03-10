@@ -1,9 +1,10 @@
 :root {
-  --mainBrown: #2d1ef1;
+  --mainBrown: #2d1e1f;
   --mainYellow: rgb(255, 158, 9);
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
+  --mainGreen: #7fffd4;
 }
 
 body {
@@ -39,4 +40,13 @@ h6 {
   background: linear-gradient(rgba(45, 43, 41, 0.5), rgba(45, 43, 41, 0.5));
   background-position: center;
   background-size: cover;
+}
+
+.btn-yellow {
+  color: var(--mainGreen);
+  border-color: var(--mainGreen);
+}
+.btn-yellow {
+  background: var(--mainGreen);
+  color: var(--mainBrown) !important;
 }
