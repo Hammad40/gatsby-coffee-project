@@ -14,7 +14,6 @@ const AboutPage = ({ data }) => (
       title="about us"
       styleClass="about-background"
     />
-    />
     <Info />
   </Layout>
 )

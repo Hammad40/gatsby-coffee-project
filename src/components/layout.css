@@ -38,7 +38,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(45, 43, 41, 0.5), rgba(45, 43, 41, 0.5));
+  background: linear-gradient(rgba(45, 43, 41, 0.8), rgba(45, 43, 41, 0.8));
   background-position: center;
   background-size: cover;
 }
@@ -46,7 +46,9 @@ h6 {
 .about-background {
   min-height: 60vh;
 }
-
+.logo {
+  color: var(--mainGreen);
+}
 .btn-yellow {
   color: var(--mainGreen);
   border-color: var(--mainGreen);
