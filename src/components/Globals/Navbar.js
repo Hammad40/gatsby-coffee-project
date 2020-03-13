@@ -57,6 +57,7 @@ https://www.iconfinder.com/webalys */}
             })}
             <li className="nav-item.ml-sm-5">
               <img src={icon} alt="icon" />
+              <button class="snipcart-checkout">My Cart</button>
             </li>
           </ul>
         </div>
