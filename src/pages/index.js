@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
+import Products from "../components/Home/Products"
+import Contact from "../components/Home/Contact"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -14,6 +16,8 @@ const IndexPage = ({ data }) => (
       title="future of homes"
     />
     <Info />
+    <Products />
+    <Contact />
   </Layout>
 )
 

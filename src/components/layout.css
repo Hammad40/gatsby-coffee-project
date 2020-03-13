@@ -53,10 +53,13 @@ h6 {
   color: var(--mainGreen);
   border-color: var(--mainGreen);
 }
-.btn-yellow {
+.btn-green {
   background: var(--mainGreen);
   color: var(--mainBrown) !important;
 }
 .footer {
   background: var(--mainDark);
+}
+.contact {
+  background: var(--mainGrey);
 }
